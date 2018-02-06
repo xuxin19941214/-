@@ -3,7 +3,7 @@ from pymysql import connect
 
 class SearchSpiderTools(object):
     def get_key_word(self):
-        conn = connect(host='122.115.46.176', port=3306, user='root', password='Duba0406.', database='zkdp',
+        conn = connect(host='', port=, user='', password='', database='',
                        charset='utf8')
         sql = 'select * from keyword'
         # 操作游标
