@@ -25,12 +25,12 @@ class MongoConfigs(object):
     # mongo数据库的ip
     host = Configs.host
     # mongo数据库的端口号
-    port = 27017
+    port = 
     # mongo数据库使用者的名字
     username = ''
     # mongo数据库的密码
     password = ''
-    conn = MongoClient(host='122.115.46.176', port=port, username=username,
+    conn = MongoClient(host='', port=port, username=username,
                        password=password)
     db_web = conn.portal
     col_data = db_web.web_data
